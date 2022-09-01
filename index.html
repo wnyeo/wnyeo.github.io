@@ -1,51 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>wnyeo</title>
+    <style>
+        ul {
+            background-color: rgb(54, 53, 51);
+            margin: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 0px;
+            opacity: 80%;
+        }
+
+        li {
+            list-style-type: none;
+            display: inline;
+            color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .textdiv {
+            background-color: rgb(203, 255, 238);
+            width: 400px;
+            padding: 40px;
+            border-radius: 10%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: justify;
+            float: left;
+        }
+
+        .imgstyle {
+            float: right;
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
-    <h1> hi there! </h1>
+    <ul>
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Past Projects</li>
+    </ul>
+    <h1> hi there! i'm wei ni </h1>
+    <div class="textdiv">
+        Currently a year 3 student pursuing a degree in Information Systems and Business, majoring in Smart City Management and Technology, and Quantitative Finance.
+        <br><br>
+        I like learning about new and interesting things. In my free time, I like to watch variety shows. 
+        
+    </div>
+    <div>
+    <img class="imgstyle" src="wnyeo.png" >
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- <iframe width="420" height="315"
+        src="https://www.youtube.com/watch?v=tPaxLffVcfA">
 
-    <table border='1'>
-        <tr>
-            <th>Name</th>
-            <td>
-                <input type="text" name="username" size="20" />
-            </td>
-        </tr>
-        <tr>
-            <th>Relationship Status</th>
-            <td>
-                <input type="radio" name="relationship" value="single" /> Single
-                <input type="radio" name="relationship" value="attached"/> Attached
-                <input type="radio" name="relationship" value="married" /> Married
-                <input type="radio" name="relationship" value="divorced" /> Divorced
-                <input type="radio" name="relationship" value="widowed" /> Widowed
-            </td>
-        </tr>
-        <tr>
-            <th>Favourite Fruits</th>
-            <td>
-                <input type="checkbox" name="fruits[]" value="m" /> Mango
-                <input type="checkbox" name="fruits[]" value="b" /> Banana
-                <input type="checkbox" name="fruits[]" value="o" /> Orange
-                <input type="checkbox" name="fruits[]" value="p" /> Pineapple
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <input type='submit' value='Submit' name ='submit'/>
-            </td>    
-        </tr>
-    </table>
-    <hr>
+    </iframe> -->
 
-    <h1> hi there! i'm wei ni</h1>
-    <p>hope that we all get better day by day</p>
-    <img src="sunflower.png" >
 
 </body>
 </html>
