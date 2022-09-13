@@ -6,39 +6,78 @@
     <title>wnyeo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <style>
-        .name {
-            height: 100%;
-            width: 100%;
-            display: flex;
-            padding: 10% 10% 10% 20%;
-            align-items: center;
-            justify-content: left;
+    
+        * {
+            background-color: aliceblue;
         }
 
-        .imgbackground {
-            background: rgb(216, 216, 255);
+        .introbg {
+            background-color: rgb(142, 193, 238);
         }
-
-        H2 {
+        h2 {
             text-decoration-line: underline;
         }
+
+        img {
+            width: 90%;
+            height: 100%;
+            border-radius: 20px;
+            align-items: center;
+        }
+
+        li:hover {
+            background-color: rgb(4, 17, 28);
+        }
+
     </style>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg p-0">
+    <div class="container-fluid">
+        <ul class="navbar-nav m-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#exp">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+
 <section id="intro">
-    <div class="container-fluid name imgbackground">
-        <div class="row">
-        <h1>Wei Ni Yeo</h1>
-        <p>learner. developer. engineer</p>
+    <div class="container-fluid text-center introbg">
+        <div class="row p-3 justify-content-center mx-auto introbg">
+            <div class="col-md-6 d-flex flex-column justify-content-center introbg">
+                
+                <h1 class="introbg">Wei Ni Yeo</h1>
+                <p class="introbg">learner. developer. engineer</p>
+            </div>
+
+            <div class="col-md-4 introbg">
+                <img src="./wnyeo3.png" alt="">
+            </div>
+        
         </div>
+        
     </div>
 </section>
 <section id="about">
     <div class="container-fluid">
         <div class="row">
-            <div class="col mx-auto text-center">
+            <div class="col-10 mx-auto text-center">
                 <h2 class="p-3">ABOUT</h2>
-                <p class="m-5">
+                <p class="">
                     Hi there! I'm Wei Ni, a student pursing a double degree in Information Systems (Smart City Management & Technology) and Business (Quantitative Finance). I'm passionate about learning new things and building things that can help people in my free time. I'm currently learning web development and I'm looking forward to learning more about it!
                 </p>
             </div>
@@ -50,38 +89,89 @@
     <div class="container-fluid">
         <h2 class="p-3 mx-auto text-center">SKILLS</h2>
         <div class="row">
-            <div class="col lg-6 mx-auto text-center">
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="col-md-5 mx-auto text-left">
+                <div class="p-3">
+                    Python
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Default striped example" style="width: 95%">95%</div>
+                    </div>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="p-3">
+                    HTML
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Success striped example" style="width: 80%">80%</div>
+                    </div>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-label="Info striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="p-3">
+                    CSS
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Info striped example" style="width: 70%">70%</div>
+                    </div>
                 </div>
             </div>
-            <div class="col lg-6 mx-auto text-center">
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" aria-label="Warning striped example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            
+            
+            <div class="col-md-5 mx-auto text-left">
+                <div class="p-3">
+                    JavaScript
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Warning striped example" style="width: 50%">50%</div>
+                    </div>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-label="Danger striped example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="p-3">
+                    PHP
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Danger striped example" style="width: 80%">80%</div>
+                    </div>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-label="Danger striped example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="p-3">
+                    MySQL
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Danger striped example" style="width: 70%">70%</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
 
+<section id="exp">
+    <div class="container-fluid">
+        <h2 class="p-3 mx-auto text-center">WORK EXPERIENCE</h2>
+        <div class="row">
+
+        </div>
+    </div>
 </section>
 
 
-TECHNICAL SKILLS
-WORK EXPERIENCE
-PROJECTS
-CONTACT ME
+<section id="projects">
+    <div class="container-fluid">
+        <h2 class="p-3 mx-auto text-center">PROJECTS</h2>
+        <div class="row">
+
+        </div>
+    </div>
+</section>
+
+
+<section id="contact">
+    <div class="container-fluid">
+        <h2 class="p-3 mx-auto text-center">GET IN TOUCH</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-10 text-center">
+                <p>I'm constantly looking for new projects and opportunities, please feel free to reach out through the following platforms :D</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-10 text-center">
+                <a href="weiniyeo@gmail.com"><img src="email.png" style="width: 60px; height:auto; margin: 10px;"></a>
+                <a href="https://www.linkedin.com/in/wei-ni-yeo/"><img src="linkedin.png" style="width: 60px; height:auto; margin: 10px;"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
