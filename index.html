@@ -39,6 +39,11 @@
             align-items: center;
         }
 
+        #projects h6 {
+            padding-bottom: 10px;
+            font-style: italic;
+        }
+
     /* class */
         .year {
             font-size: 16px;
@@ -52,7 +57,7 @@
         }
 
         .introbg {
-            background-color: rgb(142, 193, 238);
+            background-color: rgb(162, 212, 255);
         }
 
         .navvar .li:hover {
@@ -62,7 +67,7 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg p-0">
+<nav class="navbar navbar-expand-sm p-0">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
         <span class="navbar-toggler-icon"></span>
@@ -100,7 +105,7 @@
             </div>
 
             <div class="col-md-4 introbg">
-                <img src="./wnyeo3.png" alt="">
+                <img src="img/wnyeo3.png" alt="">
             </div>
 
         </div>
@@ -187,12 +192,12 @@
 
             <div class="col-md-5 ps-4 mx-auto">
                 <h3>Work Experience</h3>
-                <p class="fw-bold">Health Promotion Board <span class="year">May 2020 - Current</span></p>
+                <p class="fw-bold">Health Promotion Board <span class="year">May 2022 - Current</span></p>
                 <em><b>Data Governance & Compliance Intern</b></em>
                 <ul>
-                    <li>Drafted an interim Data Protection Policy for the Board based on given guidelines.</li>
+                    <li>Drafted an interim Data Protection Policy for the Board based on given guidelines</li>
                     <li>Assisted in the development of a Personal Data Protection Impact Assessment (PDPIA) training slide deck for the Board</li>
-                    <li>Did up with eDMs to drive the awareness of data protection and compliance within the Board.</li>
+                    <li>Did up with eDMs to drive the awareness of data protection and compliance within the Board</li>
                     <li>Programmed a simple RPA with Uipath	to automate processes</li>
                 </ul>
             </div>
@@ -204,11 +209,45 @@
 <section id="projects">
     <div class="container-fluid">
         <h2 class="p-3 mx-auto text-center">PROJECTS</h2>
-        <div class="row">
-            <p class="text-center">Work in progress, stay tuned!</p>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col-md-6 px-5">
+                <div class="card">
+                <img src="img/lstm.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">AIxImpact Student Case Competition, Finalist </h5>
+                    <h6 class="card-subtitle">Organised by QuantumBlack</h6>
+                    <p class="card-text">Participated in the healthcare category which tackled the problem statement of using data analytics to predict or prevent the next pandemic. Proposed the use of real time social media data to analyze infections in the population and the usage of SVM and LSTM models to detect anomalies such that intervention strategies could be implemented early.</p>
+                </div>
+                </div>
+            </div>
+        
+            <div class="col-md-6 px-5">
+                <div class="card">
+                <img src="img/buildonasean.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Build On, ASEAN 2021 Hackathon, 1st Runner Up</h5>
+                    <h6 class="card-subtitle">Organized by Amazon Web Services, Cognizant</h6>
+                    <p class="card-text">Proposed a solution to better connect people who need help or resources with people who can provide timely help and resources. The main features of the solution are geospatial visualization and integrated agency information. Used the nearest neighbor analysis to help users locate the nearest organization providing help. Attempted to also host the solution on Amazon Web Services.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-5">
+                <div class="card">
+                <img src="./img/finhack.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Financial Inclusion Hackathon 2021, 1st Runner Up	</h5>
+                    <h6 class="card-subtitle">Organized by Citi Foundation-SMU Financial Literacy Program for Young Adults</h6>
+                    <p class="card-text">Proposed a financial management platform to encourage more fresh graduates to budget and portion their income. The main feature is the dynamic daily budgeting that is adjusted to user's spending pattern. Completed a proof of concept as part of the hackathon. </p>
+                </div>
+                </div>
+            </div>
+            
         </div>
+
     </div>
 </section>
+
 
 
 <section id="contact">
@@ -221,8 +260,9 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-md-10 text-center">
-                <a href="mailto:weiniyeo@gmail.com"><img src="email.png" style="width: 60px; height:auto; margin: 10px;"></a>
-                <a href="https://www.linkedin.com/in/wei-ni-yeo/"><img src="linkedin.png" style="width: 60px; height:auto; margin: 10px;"></a>
+                <a href="mailto:weiniyeo@gmail.com"><img src="./img/email.png" style="width: 60px; height:auto; margin: 10px;"></a>
+                <a href="https://www.linkedin.com/in/wei-ni-yeo/"><img src="img/linkedin.png" style="width: 60px; height:auto; margin: 10px;"></a>
+                <a href="https://github.com/wnyeo"><img src="img/github.png" style="width: 60px; height:auto; margin: 10px;"></a>
             </div>
         </div>
     </div>
