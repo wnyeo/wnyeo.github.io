@@ -6,30 +6,40 @@
     <title>wnyeo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <style>
-    
+
+    /* overall */
         * {
             background-color: aliceblue;
         }
 
-        .introbg {
-            background-color: rgb(142, 193, 238);
-        }
         h2 {
             text-decoration-line: underline;
         }
 
         h6 {
             text-align: left;
-            /* padding-left: 20px ; */
         }
 
-        #resume h3, p {
+    /* section */
+        #resume h3 {
+            /* padding-left; */
+            margin: 0;
+            
+        }
+        #resume p {
             /* padding-left; */
             margin: 0;
             
         }
 
+        #intro img {
+            width: 90%;
+            height: 100%;
+            border-radius: 20px;
+            align-items: center;
+        }
 
+    /* class */
         .year {
             font-size: 16px;
             background: #bbdbfb;
@@ -39,13 +49,10 @@
             text-align: right;
             border-radius: 10px;
             padding: 5px;
-
         }
-        img {
-            width: 90%;
-            height: 100%;
-            border-radius: 20px;
-            align-items: center;
+
+        .introbg {
+            background-color: rgb(142, 193, 238);
         }
 
         .navvar .li:hover {
@@ -57,7 +64,12 @@
 <body>
 <nav class="navbar navbar-expand-lg p-0">
     <div class="container-fluid">
-        <ul class="navbar-nav m-3">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+            <ul class="navbar-nav m-3">
             <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
             </li>
@@ -90,11 +102,11 @@
             <div class="col-md-4 introbg">
                 <img src="./wnyeo3.png" alt="">
             </div>
-        
+
         </div>
-        
     </div>
 </section>
+
 <section id="about">
     <div class="container-fluid">
         <div class="row">
@@ -110,7 +122,7 @@
 
 <section id="skills">
     <div class="container-fluid">
-        <h2 class="p-3 mx-auto text-center">SKILLS</h2>
+        <h2 class="p-3 m-0 mx-auto text-center">SKILLS</h2>
         <div class="row">
             <div class="col-md-5 mx-auto text-left">
                 <div class="p-3">
@@ -162,7 +174,7 @@
     <div class="container-fluid">
         <h2 class="p-3 mx-auto text-center">RESUME</h2>
         <div class="row py-3">
-            <div class="col-md-5 ps-5 pb-3 mx-auto">
+            <div class="col-md-5 ps-4 pb-3 mx-auto">
                 <h3>Education</h3>
                 <p class="fw-bold">Singapore Management University <span class="year">2020-2025</span></p>
                 <ul>
@@ -173,7 +185,7 @@
                 </ul>
             </div>
 
-            <div class="col-md-5 ps-5 mx-auto">
+            <div class="col-md-5 ps-4 mx-auto">
                 <h3>Work Experience</h3>
                 <p class="fw-bold">Health Promotion Board <span class="year">May 2020 - Current</span></p>
                 <em><b>Data Governance & Compliance Intern</b></em>
@@ -192,7 +204,6 @@
 <section id="projects">
     <div class="container-fluid">
         <h2 class="p-3 mx-auto text-center">PROJECTS</h2>
-
         <div class="row">
             <p class="text-center">Work in progress, stay tuned!</p>
         </div>
