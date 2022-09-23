@@ -1,0 +1,56 @@
+/* overall */
+* {
+    background-color: aliceblue;
+}
+
+h2 {
+    text-decoration-line: underline;
+}
+
+h6 {
+    text-align: left;
+}
+
+/* section */
+#resume h3 {
+    /* padding-left; */
+    margin: 0;
+    
+}
+#resume p {
+    /* padding-left; */
+    margin: 0;
+    
+}
+
+#intro img {
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#projects h6 {
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+/* class */
+.year {
+    font-size: 16px;
+    background: #bbdbfb;
+    margin: 5px;
+    display: inline-block;
+    font-weight: 600;
+    text-align: right;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.introbg {
+    background-color: rgb(162, 212, 255);
+}
+
+.navvar .li:hover {
+    background-color: rgb(4, 17, 28);
+}
